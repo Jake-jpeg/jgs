@@ -17,8 +17,8 @@ const en = {
   stats: [
     { value: '2015', label: 'NJ Bar Admission' },
     { value: '2016', label: 'NY Bar Admission' },
-    { value: '2025', label: 'DivorceGPT Launch' },
-    { value: '2026', label: 'JGS Web Services' },
+    { value: '2025', label: 'JGS Established' },
+    { value: '2026', label: 'DivorceGPT Launch' },
   ],
   cta: 'Work with The Builder',
   disclaimer: 'June Guided Solutions, LLC is not a law firm and does not provide legal advice.',
@@ -39,8 +39,8 @@ const ko = {
   stats: [
     { value: '2015', label: 'NJ 변호사 자격' },
     { value: '2016', label: 'NY 변호사 자격' },
-    { value: '2025', label: 'DivorceGPT 런칭' },
-    { value: '2026', label: 'JGS 웹 서비스' },
+    { value: '2025', label: 'JGS 설립' },
+    { value: '2026', label: 'DivorceGPT 런칭' },
   ],
   cta: 'The Builder와 함께 일하기',
   disclaimer: 'June Guided Solutions, LLC는 법률 사무소가 아니며 법률 자문을 제공하지 않습니다.',
