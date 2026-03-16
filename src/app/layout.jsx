@@ -5,7 +5,7 @@ export const metadata = {
     template: '%s | June Guided Solutions',
     default: 'June Guided Solutions — AI-Powered Websites for Small Businesses',
   },
-  description: 'We build AI-powered websites with bilingual chatbots for small businesses. Korean & English. Weekend turnaround. Built by an attorney who codes.',
+  description: 'AI-powered websites with multilingual chatbots for small businesses. Weekend turnaround. Built by Jake S. Kim, Esq..',
 }
 
 export default function RootLayout({ children }) {

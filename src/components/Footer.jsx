@@ -27,7 +27,7 @@ export function Footer() {
                 <NavLink href="mailto:admin@juneguidedsolutions.com">Contact</NavLink>
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} June Guided Solutions, LLC. All rights
+                &copy; 2025 June Guided Solutions, LLC. All rights
                 reserved.
               </p>
             </div>

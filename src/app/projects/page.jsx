@@ -5,14 +5,14 @@ const products = [
   {
     name: 'DivorceGPT',
     description:
-      'AI-powered uncontested divorce document preparation. Live in New York and New Jersey. No lawyer required. $29 per packet. Built from scratch — every line of code, every form, every qualification flow. This is the product that proved the model.',
+      'AI-powered uncontested divorce document preparation. Live in New York and New Jersey. No lawyer required. $99 per packet. Built from scratch — every line of code, every form, every qualification flow. This is the product that proved the model.',
     link: { href: 'https://divorcegpt.com', label: 'divorcegpt.com' },
     status: 'Live',
   },
   {
     name: 'AI Business Websites',
     description:
-      'Full website with a bilingual AI chatbot (Korean/English) that handles customer intake, scheduling, and inquiries 24/7. Built for restaurants, academies, salons, medical offices, real estate, accounting firms, and law practices. Weekend turnaround. Flat fee.',
+      'Full website with a AI chatbot (multilingual) that handles customer intake, scheduling, and inquiries 24/7. Built for restaurants, academies, salons, medical offices, real estate, accounting firms, and law practices. Weekend turnaround. Flat fee.',
     link: { href: 'mailto:admin@juneguidedsolutions.com', label: 'Get in touch' },
     status: 'Available',
   },
