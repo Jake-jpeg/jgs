@@ -107,10 +107,10 @@ export default function About() {
             </a>
 
             {/* Case Study 2: Jake Kim Law Firm */}
-            <a href="https://jakekimlawfirm.com" rel="dofollow" className="group block bg-navy-800/40 border border-white/5 rounded-2xl p-8 hover:border-gold-500/20 hover:bg-navy-800/60 transition-all duration-300">
+            <a href="https://jakekimlaw.com" rel="dofollow" className="group block bg-navy-800/40 border border-white/5 rounded-2xl p-8 hover:border-gold-500/20 hover:bg-navy-800/60 transition-all duration-300">
               <div className="flex items-center justify-between mb-4">
                 <span className="inline-flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-semibold text-teal-400 ring-1 ring-teal-400/20">Live</span>
-                <span className="text-white/20 text-xs group-hover:text-gold-400/60 transition">jakekimlawfirm.com →</span>
+                <span className="text-white/20 text-xs group-hover:text-gold-400/60 transition">jakekimlaw.com →</span>
               </div>
               <h3 className="font-display text-2xl font-bold text-white group-hover:text-gold-400 transition">Jake Kim Law Firm</h3>
               <p className="mt-1 text-gold-400/60 text-sm font-medium">High-Converting Professional Services Site</p>
