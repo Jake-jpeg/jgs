@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'About the Founder — Jake S. Kim, Esq. | June Guided Solutions',
-  description: 'Custom web applications, document pipelines, and AI-driven client intake systems for law firms. Built by Jake S. Kim, Esq. — a practicing attorney who learned full-stack development from scratch.',
+  title: 'About the Founder — Jake S. Kim | June Guided Solutions',
+  description: 'Custom web applications, document pipelines, and AI-driven intake systems for law firms. Built by Jake S. Kim — Founder & Lead Developer at June Guided Solutions.',
 }
 
 export default function About() {
@@ -14,45 +14,42 @@ export default function About() {
             About the Founder
           </div>
           <h1 id="founder-heading" className="font-display text-4xl sm:text-6xl font-bold text-white leading-tight">
-            Jake S. Kim, Esq.
+            Jake S. Kim
           </h1>
           <p className="mt-4 text-gold-400/80 text-lg font-medium">
-            Practicing Attorney. Full-Stack Developer. Building Custom Tech for Law Firms.
+            Founder &amp; Lead Developer. Building High-Stakes Tech for Law Firms.
           </p>
 
           <article className="mt-12 space-y-8 text-white/50 text-base leading-relaxed">
             <p>
-              I looked at the standard development agencies before I wrote my first line of code. The problem was immediately obvious: standard tech agencies do not understand the practice of law.
+              I looked at standard development agencies before I wrote my first line of code. The problem was immediately obvious: standard tech agencies do not understand the architecture of a legal practice.
             </p>
             <p>
-              They don&apos;t understand attorney-client privilege, strict data compliance, trust accounting, or the exact formatting required for court-ready documents. If you hire them, you end up spending half your project budget just trying to explain your daily operations to a 22-year-old project manager.
+              They don&apos;t understand the technical requirements for data compliance, the nuances of secure document pipelines, or the precise formatting required for court-ready output. If you hire them, you end up spending half your project budget explaining your daily operations to a project manager who has never seen a docket.
             </p>
             <p>
-              I refused to accept that. I&apos;m a practicing attorney licensed in New York and New Jersey. I had no computer science degree, but I had a law practice that needed serious automation. So, I learned full-stack development and built it myself.
+              I refused to accept that. As a developer with a background as a practicing attorney in New York and New Jersey, I saw a gap that only a builder who speaks the language of the law could fill. I didn&apos;t just study computer science; I sat in the trenches of a law practice, identified the friction points, and learned full-stack development to automate them.
             </p>
             <p>
-              The result was <a href="https://divorcegpt.com" className="text-gold-400 hover:text-gold-300 transition">DivorceGPT</a>&mdash;a complex, secure legal SaaS platform with custom frontend frameworks, Stripe payment processing, cloud infrastructure, and highly accurate PDF generation pipelines. I wrote every line. From zero to production.
+              The result was <a href="https://divorcegpt.com" className="text-gold-400 hover:text-gold-300 transition">DivorceGPT</a>&mdash;a complex, secure legal SaaS platform featuring custom frontend frameworks, Stripe integration, and highly accurate PDF generation pipelines. I wrote every line. From zero to production.
             </p>
             <p>
-              I didn&apos;t just build an internal tool for my own firm. I engineered a compliant, multi-jurisdictional platform built to scale across the country. That process&mdash;solving complex legal logic with heavy engineering&mdash;is what created June Guided Solutions.
+              June Guided Solutions (JGS) was born from that process: solving complex logic with heavy engineering. Today, JGS builds custom web applications, automated document pipelines, and AI-driven intake systems engineered exclusively for the legal industry.
             </p>
             <p>
-              Today, JGS builds custom web applications, automated document pipelines, and AI-driven client intake systems exclusively for law firms.
+              When your developer understands the stakes of the industry, you skip the &ldquo;onboarding&rdquo; phase. Security is locked down by default. Scope doesn&apos;t creep. I bring a level of rigor to my code that is only found in high-stakes professional environments.
             </p>
             <p>
-              Here&apos;s what you get when your developer is also a fellow attorney: We don&apos;t need to have a meeting about what a retainer agreement is. Data handling is locked down by default. Scope doesn&apos;t creep. I bring lawyer-level diligence to writing code because cutting corners isn&apos;t in my training.
-            </p>
-            <p>
-              Your firm&apos;s technology isn&apos;t a side project to me&mdash;it&apos;s a secure deliverable built to scale your practice.
+              Your firm&apos;s technology isn&apos;t a side project&mdash;it&apos;s a secure, scalable engine for your growth. Let&apos;s build it.
             </p>
             <p className="text-white/30 text-sm">
-              Disclaimer: June Guided Solutions, LLC is a technology and development agency, not a law firm. JGS provides software, website development, and AI engineering services. JGS does not provide legal advice, legal representation, or legal services. Any legal services require a separate, signed engagement agreement directly with Jake Kim Law Firm, LLC.
+              Disclaimer: June Guided Solutions is a technology firm, not a law firm. Jake Kim provides technical and engineering services and does not provide legal advice or representation through JGS.
             </p>
 </article>
 
           <div className="mt-12 border-l-2 border-gold-500/30 pl-6 py-2">
             <blockquote className="text-white/70 font-display text-lg italic">
-              &ldquo;Standard dev agencies don&apos;t understand the business of law. I do. I didn&apos;t learn to code just to be a developer; I learned because the standard tech market for law firms is broken. Now, I build custom tech for law firms that actually works.&rdquo;
+              &ldquo;Standard dev agencies don&apos;t understand the architecture of a legal practice. I do. I learned to code because the tech market for law firms is broken. Now, I build high-stakes tech that actually works.&rdquo;
             </blockquote>
           </div>
 
