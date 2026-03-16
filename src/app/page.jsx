@@ -46,7 +46,7 @@ const en = {
     cta: 'Visit divorcegpt.com',
     stat1: '$99', stat1label: 'per packet',
     stat2: '2', stat2label: 'states live',
-    stat3: '0', stat3label: 'lawyers required',
+    stat3: '$499', stat3label: 'attorney consultation',
   },
   pricing: {
     tag: 'Pricing',
