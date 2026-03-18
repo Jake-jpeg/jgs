@@ -28,7 +28,7 @@ export default function About() {
               They don&apos;t understand the technical requirements for data compliance, the nuances of secure document pipelines, or the precise formatting required for court-ready output. If you hire them, you end up spending half your project budget explaining your daily operations to a project manager who has never seen a docket.
             </p>
             <p>
-              I refused to accept that. As a developer with a background as a practicing attorney in New York and New Jersey, I saw a gap that only a builder who speaks the language of the law could fill. I didn&apos;t just study computer science; I sat in the trenches of a law practice, identified the friction points, and learned full-stack development to automate them.
+              As a developer with a background as a practicing attorney in New York and New Jersey, I saw a gap that only a builder who speaks the language of the law could fill. I didn&apos;t just study computer science; I sat in the trenches of a law practice, identified the friction points, and learned full-stack development to automate them.
             </p>
             <p>
               The result was <a href="https://divorcegpt.com" className="text-gold-400 hover:text-gold-300 transition">DivorceGPT</a>&mdash;a complex, secure legal SaaS platform featuring custom frontend frameworks, Stripe integration, and highly accurate PDF generation pipelines. I wrote every line. From zero to production.
@@ -43,7 +43,7 @@ export default function About() {
               Your firm&apos;s technology isn&apos;t a side project&mdash;it&apos;s a secure, scalable engine for your growth. Let&apos;s build it.
             </p>
             <p className="text-white/30 text-sm">
-              Disclaimer: June Guided Solutions is a technology firm, not a law firm. Jake S. Kim provides technical and engineering services and does not provide legal advice or representation through JGS.
+              Disclaimer: June Guided Solutions is a technology firm, not a law firm. Jake Kim provides technical and engineering services and does not provide legal advice or representation through JGS.
             </p>
 </article>
 
@@ -107,10 +107,10 @@ export default function About() {
             </a>
 
             {/* Case Study 2: Jake Kim Law Firm */}
-            <a href="https://jakekimlaw.com" rel="dofollow" className="group block bg-navy-800/40 border border-white/5 rounded-2xl p-8 hover:border-gold-500/20 hover:bg-navy-800/60 transition-all duration-300">
+            <a href="https://jakekimlawfirm.com" rel="dofollow" className="group block bg-navy-800/40 border border-white/5 rounded-2xl p-8 hover:border-gold-500/20 hover:bg-navy-800/60 transition-all duration-300">
               <div className="flex items-center justify-between mb-4">
                 <span className="inline-flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-semibold text-teal-400 ring-1 ring-teal-400/20">Live</span>
-                <span className="text-white/20 text-xs group-hover:text-gold-400/60 transition">jakekimlaw.com →</span>
+                <span className="text-white/20 text-xs group-hover:text-gold-400/60 transition">jakekimlawfirm.com →</span>
               </div>
               <h3 className="font-display text-2xl font-bold text-white group-hover:text-gold-400 transition">Jake Kim Law Firm</h3>
               <p className="mt-1 text-gold-400/60 text-sm font-medium">High-Converting Professional Services Site</p>
