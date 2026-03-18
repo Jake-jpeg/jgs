@@ -43,7 +43,7 @@ export default function About() {
               Your firm&apos;s technology isn&apos;t a side project&mdash;it&apos;s a secure, scalable engine for your growth. Let&apos;s build it.
             </p>
             <p className="text-white/30 text-sm">
-              Disclaimer: June Guided Solutions is a technology firm, not a law firm. Jake Kim provides technical and engineering services and does not provide legal advice or representation through JGS.
+              Disclaimer: June Guided Solutions is a technology firm, not a law firm. Jake S. Kim provides technical and engineering services and does not provide legal advice or representation through JGS.
             </p>
 </article>
 
