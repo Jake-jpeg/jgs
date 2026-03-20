@@ -46,7 +46,6 @@ const en = {
     cta: 'Visit divorcegpt.com',
     stat1: '$99', stat1label: 'per packet',
     stat2: '2', stat2label: 'states live',
-    stat3: '$499', stat3label: 'attorney consultation',
   },
   pricing: {
     tag: 'Pricing',
@@ -160,7 +159,7 @@ export default function Home() {
             </div>
             <h2 className="font-display text-4xl sm:text-5xl font-bold text-white">{t.flagship.title}</h2>
           </div>
-          <div className="grid grid-cols-3 gap-6 mb-12">
+          <div className="grid grid-cols-2 gap-6 max-w-md mx-auto mb-12">
             <div className="text-center bg-navy-800/40 border border-white/5 rounded-2xl p-6">
               <div className="font-display text-3xl font-bold text-gold-400">{t.flagship.stat1}</div>
               <div className="text-white/30 text-sm mt-1">{t.flagship.stat1label}</div>
@@ -168,10 +167,6 @@ export default function Home() {
             <div className="text-center bg-navy-800/40 border border-white/5 rounded-2xl p-6">
               <div className="font-display text-3xl font-bold text-gold-400">{t.flagship.stat2}</div>
               <div className="text-white/30 text-sm mt-1">{t.flagship.stat2label}</div>
-            </div>
-            <div className="text-center bg-navy-800/40 border border-white/5 rounded-2xl p-6">
-              <div className="font-display text-3xl font-bold text-gold-400">{t.flagship.stat3}</div>
-              <div className="text-white/30 text-sm mt-1">{t.flagship.stat3label}</div>
             </div>
           </div>
           <div className="space-y-6 text-white/50 text-base leading-relaxed max-w-3xl mx-auto">
