@@ -1,6 +1,14 @@
 export const metadata = {
-  title: 'About the Founder — Jake S. Kim | June Guided Solutions',
+  title: 'About the Founder — Jake S. Kim',
   description: 'Custom web applications, document pipelines, and AI-driven intake systems for law firms. Built by Jake S. Kim — Founder & Lead Developer at June Guided Solutions.',
+  alternates: {
+    canonical: '/about',
+  },
+  openGraph: {
+    title: 'About the Founder — Jake S. Kim | June Guided Solutions',
+    description: 'Custom web applications, document pipelines, and AI-driven intake systems. Built by Jake S. Kim.',
+    url: '/about',
+  },
 }
 
 export default function About() {

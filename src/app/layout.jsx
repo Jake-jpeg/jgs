@@ -1,11 +1,22 @@
 import './globals.css'
 
 export const metadata = {
+  metadataBase: new URL('https://www.juneguidedsolutions.com'),
   title: {
     template: '%s | June Guided Solutions',
     default: 'June Guided Solutions — AI-Powered Websites for Small Businesses',
   },
-  description: 'AI-powered websites with multilingual chatbots for small businesses. Weekend turnaround. Built by Jake S. Kim, Esq..',
+  description: 'AI-powered websites with multilingual chatbots for small businesses. Weekend turnaround. Built by Jake S. Kim, Esq.',
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    type: 'website',
+    siteName: 'June Guided Solutions',
+    title: 'June Guided Solutions — AI-Powered Websites for Small Businesses',
+    description: 'AI-powered websites with multilingual chatbots for small businesses. Weekend turnaround. Built by Jake S. Kim, Esq.',
+    url: '/',
+  },
 }
 
 export default function RootLayout({ children }) {
