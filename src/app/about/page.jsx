@@ -114,13 +114,13 @@ export default function About() {
               </div>
             </a>
 
-            {/* Case Study 2: Jake Kim Law Firm */}
-            <a href="https://jakekimlawfirm.com" rel="dofollow" className="group block bg-navy-800/40 border border-white/5 rounded-2xl p-8 hover:border-gold-500/20 hover:bg-navy-800/60 transition-all duration-300">
+            {/* Case Study 2: Jake Kim Law Firm, LLC */}
+            <a href="https://jakekimlaw.com" rel="dofollow" className="group block bg-navy-800/40 border border-white/5 rounded-2xl p-8 hover:border-gold-500/20 hover:bg-navy-800/60 transition-all duration-300">
               <div className="flex items-center justify-between mb-4">
                 <span className="inline-flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-semibold text-teal-400 ring-1 ring-teal-400/20">Live</span>
-                <span className="text-white/20 text-xs group-hover:text-gold-400/60 transition">jakekimlawfirm.com →</span>
+                <span className="text-white/20 text-xs group-hover:text-gold-400/60 transition">jakekimlaw.com →</span>
               </div>
-              <h3 className="font-display text-2xl font-bold text-white group-hover:text-gold-400 transition">Jake Kim Law Firm</h3>
+              <h3 className="font-display text-2xl font-bold text-white group-hover:text-gold-400 transition">Jake Kim Law Firm, LLC</h3>
               <p className="mt-1 text-gold-400/60 text-sm font-medium">High-Converting Professional Services Site</p>
               <p className="mt-4 text-white/40 text-sm leading-relaxed">
                 Attorney website designed for trust and conversion. Clean, authoritative layout optimized for client intake. Mobile-first responsive design, structured data markup for local SEO, fast load times, and clear calls to action that convert visitors into consultations. Built to establish E-E-A-T signals for a practicing litigation attorney in Fort Lee, NJ.
