@@ -4,17 +4,19 @@ export const metadata = {
   metadataBase: new URL('https://www.juneguidedsolutions.com'),
   title: {
     template: '%s | June Guided Solutions',
-    default: 'June Guided Solutions — Legal Technology Engineering',
+    default: 'June Guided Solutions — Legal Technology',
   },
-  description: 'June Guided Solutions is a legal technology engineering lab. We build procedurally compliant, defensible software for the practice of law.',
+  description:
+    'June Guided Solutions builds practical software for the practice of law, designed by a practicing New York and New Jersey attorney.',
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     siteName: 'June Guided Solutions',
-    title: 'June Guided Solutions — Legal Technology Engineering',
-    description: 'We build procedurally compliant, defensible software for the practice of law.',
+    title: 'June Guided Solutions — Legal Technology',
+    description:
+      'Practical software for the practice of law, built by a practicing attorney.',
     url: '/',
   },
 }
@@ -44,8 +46,8 @@ function Nav() {
           JGS
         </a>
         <div className="flex items-center gap-8">
-          <a href="#flagship" className="text-xs text-steel-500 hover:text-steel-300 transition-colors font-body tracking-wide uppercase">
-            Product
+          <a href="#work" className="text-xs text-steel-500 hover:text-steel-300 transition-colors font-body tracking-wide uppercase">
+            Work
           </a>
           <a href="#builder" className="text-xs text-steel-500 hover:text-steel-300 transition-colors font-body tracking-wide uppercase">
             Builder
@@ -66,7 +68,7 @@ function Footer() {
               June Guided Solutions, LLC
             </p>
             <p className="text-xs text-steel-500/60 leading-relaxed">
-              June Guided Solutions, LLC is a technology and engineering holding company, not a law firm. It does not provide legal advice or representation.
+              June Guided Solutions, LLC is a technology company, not a law firm. It does not provide legal advice or representation.
             </p>
           </div>
           <div className="flex flex-col items-start md:items-end gap-3">
@@ -77,14 +79,6 @@ function Footer() {
               className="text-xs text-steel-500 hover:text-signal-400 transition-colors"
             >
               Jake Kim Law Firm, LLC &rarr;
-            </a>
-            <a
-              href="https://divorcegpt.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs text-steel-500 hover:text-signal-400 transition-colors"
-            >
-              divorcegpt.com &rarr;
             </a>
           </div>
         </div>
