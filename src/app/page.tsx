@@ -36,18 +36,60 @@ export default function Home() {
       <main>
         <div className="wrap">
           <section className="hero">
-            <div className="eyebrow">Legal technology, built and supervised by a practicing attorney</div>
-            <h1>Legal software that stays accountable to a person.</h1>
-            <p className="lede">
-              June Guided Solutions designs custom web applications and AI infrastructure for law firms
-              and businesses. The principle behind every build is simple: a licensed professional stays
-              accountable for what the software does. No unnecessary data retention, no unsupervised automation.
+            <h1 style={{ textAlign: 'center', maxWidth: '620px', margin: '0 auto 1.25rem' }}>June Guided Solutions</h1>
+            <p
+              className="lede"
+              lang="en"
+              style={{ textAlign: 'center', margin: '0 auto', maxWidth: '620px', textWrap: 'balance' }}
+            >
+              A software company building custom web applications and AI-supported workflows for law firms
+              and professional-service businesses: legal intake, document generation, and workflow
+              automation.
             </p>
-            <div className="hero-actions">
+            <div className="hero-actions" style={{ display: 'flex', justifyContent: 'center' }}>
               <a href="#contact" className="btn-primary">Get in touch</a>
               <span className="pill"><span className="live" />Open to new work &amp; conversations</span>
             </div>
           </section>
+        </div>
+
+        <div className="wrap">
+          <div
+            style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              justifyContent: 'center',
+              gap: '10px',
+              padding: '4px 0 8px',
+              maxWidth: '720px',
+              margin: '0 auto',
+            }}
+          >
+            {[
+              'Next.js',
+              'Claude API',
+              'Document generation',
+              'Intake workflows',
+              'Secure infrastructure',
+              'Bilingual EN / KR',
+              'NY / NJ',
+            ].map((t) => (
+              <span
+                key={t}
+                style={{
+                  fontSize: '13px',
+                  letterSpacing: '.02em',
+                  color: 'rgba(255,255,255,.55)',
+                  border: '1px solid rgba(255,255,255,.10)',
+                  borderRadius: '999px',
+                  padding: '6px 14px',
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                {t}
+              </span>
+            ))}
+          </div>
         </div>
 
         <div className="wrap">
