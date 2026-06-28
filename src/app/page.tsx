@@ -1,0 +1,158 @@
+'use client';
+
+import { useState } from 'react';
+
+export default function Home() {
+  const [email, setEmail] = useState('');
+  const [authMsg, setAuthMsg] = useState('');
+  const [authErr, setAuthErr] = useState(false);
+
+  const handleSignIn = () => {
+    if (!email.trim()) {
+      setAuthErr(true);
+      setAuthMsg('Enter your email to continue.');
+      return;
+    }
+    setAuthErr(false);
+    setAuthMsg('Sign-in isn\u2019t connected yet \u2014 this is the shell.');
+  };
+
+  return (
+    <>
+      <header className="site-header">
+        <div className="wrap bar">
+          <div className="mark">
+            <span className="dot" />
+            June Guided Solutions <span className="sub">/ JGS</span>
+          </div>
+          <nav className="nav">
+            <a href="#work">Work</a>
+            <a href="#record">Record</a>
+            <a href="#contact" className="cta">Get in touch</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <div className="wrap">
+          <section className="hero">
+            <div className="eyebrow">Legal technology, built and supervised by a practicing attorney</div>
+            <h1>Legal software that stays accountable to a person.</h1>
+            <p className="lede">
+              June Guided Solutions designs custom web applications and AI infrastructure for law firms
+              and businesses. The principle behind every build is simple: a licensed professional stays
+              accountable for what the software does. No unnecessary data retention, no unsupervised automation.
+            </p>
+            <div className="hero-actions">
+              <a href="#contact" className="btn-primary">Get in touch</a>
+              <span className="pill"><span className="live" />Open to new work &amp; conversations</span>
+            </div>
+          </section>
+        </div>
+
+        <div className="wrap">
+          <section id="work">
+            <div className="sec-label">What I do</div>
+            <div className="cards">
+              <div className="card">
+                <h3>Firm web apps</h3>
+                <p>Custom intake, document preparation, and client-facing tools built around how a firm actually runs &mdash; not a template bolted onto a practice.</p>
+              </div>
+              <div className="card">
+                <h3>Supervised AI</h3>
+                <p>AI that drafts and speeds up the work, with a licensed professional reviewing every output before it reaches a client. The model assists; the attorney decides.</p>
+              </div>
+              <div className="card">
+                <h3>Security &amp; infrastructure</h3>
+                <p>Tenant migration, secrets handling, access control &mdash; the quiet work that keeps confidential client data where it belongs.</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div className="wrap">
+          <section id="record">
+            <div className="sec-label">Selected project</div>
+            <div className="rec">
+              <div className="rec-head">
+                <div className="rec-title">divorcegpt.com</div>
+                <div className="rec-tag">Retired &mdash; early automated build</div>
+              </div>
+              <div className="rec-body">
+                <div className="rec-col">
+                  <h4>What it was</h4>
+                  <p>An early build &mdash; a fully automated, AI-only tool for uncontested divorce paperwork, with no attorney review in the process. It was technically functional.</p>
+                  <h4>Why I retired it</h4>
+                  <p>Fully automated legal work raises real accountability and professional-responsibility concerns. A tool that generates legal documents without a licensed professional standing behind the output is the wrong design, regardless of how well it runs.</p>
+                </div>
+                <div className="rec-col">
+                  <h4>Where the work went</h4>
+                  <p>I treat it as a useful lesson rather than something to hide. Shipping it, and recognizing why it had to change, informed everything I built afterward.</p>
+                  <p>The work now continues as an attorney-supervised system, where every document is reviewed and finalized by a licensed attorney before use. Same problem, sounder architecture.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div className="wrap">
+          <section id="contact">
+            <div className="sec-label">Get in touch</div>
+            <div className="open">
+              <div className="open-l">
+                <h3>Open to the right thing.</h3>
+                <p>Roles, builds, or a problem worth solving &mdash; I&rsquo;m glad to talk. The best way to reach me is a short note about what you&rsquo;re working on.</p>
+              </div>
+              <div className="open-r">
+                <a href="mailto:jsk@jakekimlaw.com?subject=JGS%20%E2%80%94%20hello"><span>Email me</span><span className="ar">&rarr;</span></a>
+                <div className="div" />
+                <a href="https://www.linkedin.com/in/jakeskim" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><span className="ar">&rarr;</span></a>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div className="wrap">
+          <section id="access">
+            <div className="sec-label">Client access</div>
+            <div className="access">
+              <div className="ac-copy">
+                <h3>A private workspace.</h3>
+                <p>The tools behind this page are gated. If you have credentials, sign in. If you&rsquo;re here to talk about building something, the email&rsquo;s just above.</p>
+                <p className="fine">Sign-in isn&rsquo;t connected to a live backend yet &mdash; this is the shell. Nothing is collected.</p>
+              </div>
+              <div className="ac-form">
+                <div className="field">
+                  <label htmlFor="email">Email</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="name@firm.com"
+                    autoComplete="off"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                  />
+                </div>
+                <div className="field">
+                  <label htmlFor="pw">Password</label>
+                  <input id="pw" type="password" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;" autoComplete="off" />
+                </div>
+                <button className="btn" onClick={handleSignIn}>Sign in</button>
+                <div className="auth-msg" style={{ color: authErr ? '#C98A8A' : 'var(--accent)' }}>{authMsg}</div>
+                <div className="ac-note">No data retained &middot; Access by arrangement</div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <div className="wrap foot">
+          <div>June Guided Solutions, LLC &middot; juneguidedsolutions.com</div>
+          <div><a href="mailto:jsk@jakekimlaw.com">jsk@jakekimlaw.com</a></div>
+          <div>&copy; 2026</div>
+        </div>
+      </footer>
+    </>
+  );
+}
