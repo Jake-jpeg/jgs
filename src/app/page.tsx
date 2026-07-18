@@ -117,7 +117,23 @@ export default function Home() {
             <div className="sec-label">Selected project</div>
             <div className="rec">
               <div className="rec-head">
-                <div className="rec-title">divorcegpt.com</div>
+                <div className="rec-title">
+                  divorcegpt.com{' '}
+                  <a
+                    href="/divorcegpt-demo.mp4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      fontSize: '13px',
+                      fontWeight: 400,
+                      color: 'var(--accent)',
+                      textDecoration: 'none',
+                      letterSpacing: '.02em',
+                    }}
+                  >
+                    (Demo Video)
+                  </a>
+                </div>
                 <div className="rec-tag">Retired &mdash; early automated build</div>
               </div>
               <div className="rec-body">
