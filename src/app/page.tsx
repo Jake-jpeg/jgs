@@ -28,7 +28,6 @@ export default function Home() {
           <nav className="nav">
             <a href="#work">Work</a>
             <a href="#record">Record</a>
-            <a href="#contact" className="cta">Get in touch</a>
           </nav>
         </div>
       </header>
@@ -46,10 +45,6 @@ export default function Home() {
               and professional-service businesses: legal intake, document generation, and workflow
               automation.
             </p>
-            <div className="hero-actions" style={{ display: 'flex', justifyContent: 'center' }}>
-              <a href="#contact" className="btn-primary">Get in touch</a>
-              <span className="pill"><span className="live" />Open to new work &amp; conversations</span>
-            </div>
           </section>
         </div>
 
@@ -154,29 +149,12 @@ export default function Home() {
         </div>
 
         <div className="wrap">
-          <section id="contact">
-            <div className="sec-label">Get in touch</div>
-            <div className="open">
-              <div className="open-l">
-                <h3>Open to the right thing.</h3>
-                <p>Roles, builds, or a problem worth solving &mdash; I&rsquo;m glad to talk. The best way to reach me is a short note about what you&rsquo;re working on.</p>
-              </div>
-              <div className="open-r">
-                <a href="mailto:jsk@jakekimlaw.com?subject=JGS%20%E2%80%94%20hello"><span>Email me</span><span className="ar">&rarr;</span></a>
-                <div className="div" />
-                <a href="https://www.linkedin.com/in/jakeskim" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><span className="ar">&rarr;</span></a>
-              </div>
-            </div>
-          </section>
-        </div>
-
-        <div className="wrap">
           <section id="access">
             <div className="sec-label">Client access</div>
             <div className="access">
               <div className="ac-copy">
                 <h3>A private workspace.</h3>
-                <p>The tools behind this page are gated. If you have credentials, sign in. If you&rsquo;re here to talk about building something, the email&rsquo;s just above.</p>
+                <p>The tools behind this page are gated. If you have credentials, sign in. Access is arranged directly.</p>
                 <p className="fine">Sign-in isn&rsquo;t connected to a live backend yet &mdash; this is the shell. Nothing is collected.</p>
               </div>
               <div className="ac-form">
